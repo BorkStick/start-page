@@ -5,3 +5,20 @@ html {
     body {
         color: #f8f8f2 	;
     }
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #50fa7b;
+}
