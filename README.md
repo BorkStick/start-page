@@ -9,4 +9,4 @@ A browser startpage inspired by [kevin-nel](https://github.com/kevin-nel/Termina
 
 ## todo
 
-
+testing things out
