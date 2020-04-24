@@ -1,9 +1,36 @@
+:root {
+    --base04:black;
+    --base03: #282a36; 
+    --base02: #44475a;
+    --dark1: grey;
+    --dark2: grey;
+    --base01: grey;
+    --base00: grey;
+    --base0: white;
+    --base1: grey;
+    --base2: white;
+    --base3: white;
+    --red: #ff5555;
+    --green: #50fa7b;
+    --yellow: yellow;
+    --blue: blue;
+    --magenta: #ff79c6;
+    --cyan: #8be9fd;
+    --orange: #ffb86c;
+    --purple: #bd93f9;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 html {
-    background: #282a36;
+    
     }
     
     body {
-        color: #f8f8f2 	;
+        background-color: var(--base03);
+        color: var(--base0);
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
     }
 
 .title {
@@ -21,4 +48,136 @@ html {
     font-size: 50px;
     font-weight: 800;
     color: #50fa7b;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: "";
+}
+
+.link-box {
+    overflow: hidden;
+    border: 5px solid var(--base00);
+    padding: 5px;
+}
+
+
+a:link,
+a:visited {
+    color: var(--base0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--base02);
+    text-decoration: none;
+}
+
+a:active {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.linkheader {
+    font-size: 22px;
+}
+
+#outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#middle {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+
+#search {
+    display: flex;
+    width: 100%;
+    order: 2;
+}
+
+#search-bar {
+    
+    overflow: hidden;
+    background: var(--base03);
+    
+    display: flex;
+}
+
+.links-container {
+    order: 1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.main,
+.tech,
+.social,
+.server,
+.media,
+.programming,
+.gaming {
+    width: auto;
+    position: relative;
+    padding: 10px;
+    transition: background-color 0.3s;
+    color: var(--purple);
+}
+
+.main:hover,
+.tech:hover,
+.social:hover,
+.server:hover,
+.media:hover,
+.programming:hover,
+.gaming:hover {
+    background-color: var(--base03);
+}
+
+.main {
+    order: 0;
+}
+
+.social {
+    order: 2;
+}
+
+.server {
+    order: 1;
+}
+
+.tech {
+    order: 3;
+}
+
+.programming {
+    order: 4;
+}
+
+.media {
+    order: 5;
+}
+
+.gaming {
+    order: 6;
+}
+
+.separators {
+    color: var(--green);
+    
 }
