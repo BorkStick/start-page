@@ -103,16 +103,24 @@ a:active {
 
 #search {
     display: flex;
-    width: 100%;
-    order: 2;
+    height: 40px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96.5%;
 }
 
 #search-bar {
     
     overflow: hidden;
     background: var(--base03);
-    
     display: flex;
+    width: 100%;
+}
+input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .links-container {
