@@ -1,0 +1,58 @@
+
+.site,
+.site-admin,
+.client,
+.client-admin,
+.media,
+.programming,
+.gaming {
+    width: auto;
+    position: relative;
+    padding: 10px;
+    transition: background-color 0.3s;
+    color: var(--purple);
+}
+
+.site:hover,
+.site-admin:hover,
+.client:hover,
+.client-admin:hover,
+.media:hover,
+.programming:hover,
+.gaming:hover {
+    background-color: var(--base03);
+}
+
+.site {
+    order: 0;
+}
+
+.site-admin {
+    order: 1;
+}
+
+.client {
+    order: 2;
+}
+
+
+.client-admin {
+    order: 3;
+}
+
+.programming {
+    order: 4;
+}
+
+.media {
+    order: 5;
+}
+
+.gaming {
+    order: 6;
+}
+
+.separators {
+    color: var(--green);
+    
+}
